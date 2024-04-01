@@ -15,7 +15,7 @@ count = 0
 
 for ip in net:
     b = bin(int(ip))[2:]
-    formatted = format(ip, 'b') # or f'{ip:b}'
+    formatted = f'{ip:b}' # or format(ip, 'b')
     
     if b.count('1') % 2 == 0:
         count += 1
