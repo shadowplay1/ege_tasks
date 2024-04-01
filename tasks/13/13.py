@@ -17,6 +17,7 @@ for ip in net:
     b = bin(int(ip))[2:]
     formatted = f'{ip:b}' # or format(ip, 'b')
     
+    # задача: найти количество айпи-адресов с чётным количетсвом единиц
     if b.count('1') % 2 == 0:
         count += 1
 
