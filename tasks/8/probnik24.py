@@ -21,8 +21,7 @@ for i in permutations('0134567',r=6):
             c+=1
         #
 print(c)
-<<<<<<< HEAD
+
 
 # made by isp
-=======
->>>>>>> origin/main
+
