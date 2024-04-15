@@ -3,13 +3,16 @@ from itertools import product,combinations,permutations
 # product,combinations - все возмомжные перестановки WORD
 # permutations - все уникальные перетановки
 
-c=0
 # counter
+c = 0
 
-for i in func('WORD',repeat или r=5):
-    i=''.join(i)
-    c+=1
+# func - one of (product,combinations,permutations)
+for i in func('WORD', r=5):
+    i = ''.join(i)
+    
+    if True: # condition
+        c += 1
+
     print(c,i)
-
 
 # made by isp

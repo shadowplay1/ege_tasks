@@ -1,18 +1,32 @@
 # Функция самой игры 
+
 # k1 - первая куча 
 # k2 - вторая куча
 # m - ходы (не трогать)
-def f(k1,k2,m):
-    # если сумма куч больше то покажи кто ходил 
-    if (k1*k2) >=385:return m%2==0
-    if m==0:return 0
+def f(k1, k2, m):
+    # если сумма куч больше, то покажи кто ходил 
+    if (k1 * k2) >= 385:
+        return m%2==0
+    
+    if m == 0:
+        return 0
+    
     # система ходов (всегда меняется только +/- и циферки)
-    h = [f(k1+5,k2,m-1),f(k1,k2+5,m-1),f(k1*2,k2,m-1),f(k1,k2*2,m-1)]
+    h = [
+        f(k1 + 5, k2, m-1),
+        f(k1, k2 + 5, m-1),
+        f(k1 * 2, k2, m - 1),
+        f(k1, k2 * 2, m - 1)
+    ]
+
     # иногда меняется последний all на any, но это от ситуации зависит
-    return any(h) if (m-1)%2==0 else all(h)
-# -_- решени 19
-print([s for s in range(1,55) if f(8,s,2)])
+    return any(h) if (m - 1) %2 == 0 else all(h)
+
+# -_- решениe 19
+print([s for s in range(1, 55) if f(8, s, 2)])
+
 # решение 20 (иногда будет уместно использо)ать min/max)
-print([s for s in range(1,55) if not f(8,s,1) and f(8,s,3)])
+print([s for s in range(1, 55) if not f(8, s, 1) and f(8, s, 3)])
+
 # решение 21 
-print([s for s in range(1,55) if not f(8,s,2) and f(8,s,4)])
+print([s for s in range(1, 55) if not f(8, s, 2) and f(8, s, 4)])

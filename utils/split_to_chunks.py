@@ -1,7 +1,7 @@
 from typing import Any
 
 # разделение указанного массива на части указанного размера
-def split_to_chunks(arr: list, chunk_size: int) -> list[list[Any]]:
+def split_to_chunks(arr: list[Any], chunk_size: int) -> list[list[Any]]:
     chunks: list[list[Any]] = []
 
     chunk_size = 2
