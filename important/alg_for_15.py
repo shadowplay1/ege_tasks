@@ -14,7 +14,4 @@ if("expression")!=0:
     ...
 
 
-
-
-
 # made by isp
