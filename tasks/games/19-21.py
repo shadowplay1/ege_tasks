@@ -32,3 +32,6 @@ for s in range(1, 94):
 
     if game(h) is not None and game(h) != 'P1':
         print(s, game(h))
+
+
+# made by isp

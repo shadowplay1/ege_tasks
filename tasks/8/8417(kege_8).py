@@ -10,3 +10,6 @@ for i in permutations('ярослав',r=5):
     if (i.count('*') > i.count('/')) and '//' not in i:
         c+=1
 print(c)
+
+
+# made by isp

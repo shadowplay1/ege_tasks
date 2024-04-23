@@ -30,3 +30,7 @@ print([s for s in range(1, 55) if not f(8, s, 1) and f(8, s, 3)])
 
 # решение 21 
 print([s for s in range(1, 55) if not f(8, s, 2) and f(8, s, 4)])
+
+
+
+# made by isp

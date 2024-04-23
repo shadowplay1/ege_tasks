@@ -15,3 +15,6 @@ for i in range(n):
                      if abs(i - z)>=k and abs(i - j)>=k and abs(z - j)>=k :
                           max_sum = max(max_sum,arr[i] + arr[j] + arr[z])
 print(max_sum) 
+
+
+# made by isp

@@ -7,3 +7,6 @@ for i in range(len(f)-1):
     if f[i]=='A' and ( f[i+1]=='B' or f[i+1]=='C')  or f[i]=='B' and ( f[i+1]=='A' or f[i+1]=='C') or f[i] =='C' and  (f[i+1]=='B' or f[i+1]=='A'):
         m_s[i] = max(m_s[i],m_s[i-2]+2)
 print(max(m_s))
+
+
+# made by isp

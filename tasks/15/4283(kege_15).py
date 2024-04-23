@@ -7,3 +7,5 @@ for i in ([0.25*j for j in range(-10000,10000)]):
     A=0
     if ((P<=A) or ((not(A)) <= (not(Q))))!=1:
         print(i)
+
+# made by isp

@@ -9,3 +9,6 @@ for i in range(len(arr)):
         max_sum=max(max_sum,arr[i]+ arr[j])
 print(max_sum)
 # 7603
+
+
+# made by isp

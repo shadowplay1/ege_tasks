@@ -11,3 +11,5 @@ for i in product('01234567',repeat=6):
             c+=1
             
 print(c)
+
+# made by isp

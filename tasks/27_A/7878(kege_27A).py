@@ -13,3 +13,5 @@ for i in range(n):
         if (arr[i] * arr[j])%157==0 and abs(j-i)>=k:
             min_=min(min_,arr[i] * arr[j])
 print(min_)
+
+# made by isp
