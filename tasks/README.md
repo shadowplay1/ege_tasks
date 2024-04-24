@@ -1,9 +1,9 @@
-В данном разделе могут быть указанны номера заданий взятых с сайтов 
+# tasks
 
-1)https://kpolyakov.spb.ru/school/ege/generate.htm 
+В данном разделе могут быть указанны номера заданий взятых с сайтов:
 
-2)https://kompege.ru/task
+1. https://kpolyakov.spb.ru/school/ege/generate.htm 
 
-изредко, но:
+2. https://kompege.ru/task
 
-3)https://education.yandex.ru/ege
+3. https://education.yandex.ru/ege

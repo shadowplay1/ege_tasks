@@ -15,6 +15,7 @@ def sieve_eratoshen(n: int) -> int:
                 prime_num[i] = False
     
         p += 1
+
     return sum(prime_num)
 
 # made by isp
