@@ -7,7 +7,7 @@ for i in ([0.25*j for j in range(-10000,10000)]):
     if ((q<=p) or ((not A)<=r))!=1:
         print(i)
 
-# советуем заглянуть в utils/alg_for_15 для понимая
+# советуем заглянуть в important/alg_for_15 для понимая
         
 
 
