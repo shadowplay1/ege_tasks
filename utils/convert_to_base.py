@@ -1,11 +1,10 @@
 # перевод любого десятичного числа в указанную систему счисления
 def convert_to_base(n: int, base: int) -> str:
-    converted = ''
-    
+    alf = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+    res = ''
+
     while n > 0:
-        remainder = n % base
-        converted = str(remainder) + converted
+        res = alf[n % base] + res
+        n //= base
 
-        n = n // base
-
-    return converted
+    return res
